@@ -1,0 +1,7 @@
+package com.laptrinhjavaweb.repository;
+
+import com.laptrinhjavaweb.entity.CategoryEntity;
+
+public interface CategoryRepository extends JapRepository<CategoryEntity, Long> {
+
+}

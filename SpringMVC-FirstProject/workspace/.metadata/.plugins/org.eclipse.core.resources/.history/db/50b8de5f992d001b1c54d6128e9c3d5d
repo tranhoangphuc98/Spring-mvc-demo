@@ -1,0 +1,19 @@
+package com.laptrinhjavaweb.entity;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+
+@Entity
+public class CategoryEntity {
+	
+	@Column(name = "name")
+	private String name;
+	
+	@Column(name = "code")
+	private String code;
+	
+	private List<NewEntity> news = new ArrayList<>();
+	
+}

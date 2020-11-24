@@ -1,0 +1,8 @@
+package com.laptrinhjavaweb.converter;
+
+public class NewConverter {
+
+	public static NewDTO toDto(NewEntity newEntity) {
+		
+	}
+}

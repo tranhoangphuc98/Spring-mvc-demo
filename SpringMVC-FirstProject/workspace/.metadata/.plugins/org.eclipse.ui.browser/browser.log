@@ -1,0 +1,12 @@
+
+Sep 03, 2020 13:19:30.50 NEW SESSION
+Sep 03, 2020 13:19:30.50 [12136:8972:0903/131930.505:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.
+Sep 03, 2020 13:59:54.36 [12136:1288:0903/135954.358:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 03, 2020 14:23:30.20 [12136:1288:0903/142330.206:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+Sep 03, 2020 16:33:16.73 [12136:1288:0903/163316.724:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+Sep 03, 2020 17:37:19.02 [12136:1288:0903/173719.019:ERROR:socket_stream.cc(219)] Closing stream with result -2
+Sep 03, 2020 19:31:41.89 [12136:1288:0903/193141.893:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Sep 03, 2020 19:32:03.96 [12136:1288:0903/193203.960:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -202
+
+Oct 02, 2020 21:35:33.09 NEW SESSION
+Oct 02, 2020 21:35:33.09 [1264:5716:1002/213533.080:ERROR:media_history_store.cc(363)] Failed to create or update the media history store.

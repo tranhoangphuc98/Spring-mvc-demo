@@ -1,0 +1,13 @@
+127.0.0.1 - - [02/Oct/2020:21:35:31 +0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:37 +0700] "GET /spring-mvc/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:37 +0700] "GET /spring-mvc/trang-chu HTTP/1.1" 200 4352
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:39 +0700] "GET /spring-mvc/template/web/vendor/jquery/jquery.min.js HTTP/1.1" 200 88145
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:39 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 155758
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:39 +0700] "GET /spring-mvc/template/web/css/small-business.css HTTP/1.1" 200 286
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:39 +0700] "GET /spring-mvc/template/web/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 78635
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:35:41 +0700] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:36:42 +0700] "GET /spring-mvc/quan-tri/trang-chu HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:36:42 +0700] "GET /spring-mvc/dang-nhap HTTP/1.1" 200 1247
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:36:42 +0700] "GET /spring-mvc/template/login/style.css HTTP/1.1" 200 1553
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:37:22 +0700] "POST /spring-mvc/j_spring_security_check HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2020:21:37:22 +0700] "GET /spring-mvc/dang-nhap?incorrectAccount HTTP/1.1" 200 1345

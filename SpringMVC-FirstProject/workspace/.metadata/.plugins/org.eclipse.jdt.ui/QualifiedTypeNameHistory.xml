@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.service.HomeService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.service.INewService"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.entity.NewEntity"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.entity.UserEntity"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.repository.UserRepository"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.DefaultRedirectStrategy"/>
+<fullyQualifiedTypeName name="java.sql.Timestamp"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.GrantedAuthority"/>
+<fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler"/>
+<fullyQualifiedTypeName name="org.aspectj.apache.bcel.classfile.Constant"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.constant.SystemConstant"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+<fullyQualifiedTypeName name="org.springframework.security.web.context.HttpRequestResponseHolder"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.repository.NewRepository"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.model.NewModel"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.converter.NewConverter"/>
+<fullyQualifiedTypeName name="com.laptrinhjavaweb.dto.NewsDTO"/>
+</qualifiedTypeNameHistroy>

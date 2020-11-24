@@ -1,0 +1,31 @@
+package com.laptrinhjavaweb.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.laptrinhjavaweb.converter.CategoryConverter;
+import com.laptrinhjavaweb.dto.CategoryDTO;
+import com.laptrinhjavaweb.entity.CategoryEntity;
+import com.laptrinhjavaweb.repository.CategoryRepository;
+import com.laptrinhjavaweb.service.ICategoryService;
+
+@Service
+public class CategoryService implements ICategoryService{
+
+	@Autowired
+	private CategoryRepository categoryRepository;
+	
+	@Override
+	public List<CategoryDTO> findAll() {
+		List<CategoryDTO> dtos = new ArrayList<>();
+		List<CategoryEntity> entities = categoryRepository.findAll();
+		for(CategoryEntity category : entities) {
+			dtos.add(CategoryConverter.toDto(category));
+		}
+		return dtos;
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.laptrinhjavaweb.converter;
+
+import com.laptrinhjavaweb.dto.NewsDTO;
+import com.laptrinhjavaweb.entity.NewEntity;
+
+public class NewConverter {
+
+	public static NewsDTO toDto(NewEntity newEntity) {
+		NewsDTO newsDTO = new NewsDTO();
+		newsDTO.setTitle(newEntity.getTitle());
+		newsDTO.setThumbnail(newEntity.getThumbnail());
+		newsDTO.setShortDescription(newEntity.getShortDescription());
+		newsDTO.setContent(newEntity.getContent());
+		newsDTO.setCategoryCode(newEntity.getCategory().getCode());
+		return newsDTO; 
+	}
+	
+	public static NewEntity toDto(NewsDTO newsDTO) {
+		NewsDTO newsDTO = new NewsDTO();
+		newsDTO.setTitle(newEntity.getTitle());
+		newsDTO.setThumbnail(newEntity.getThumbnail());
+		newsDTO.setShortDescription(newEntity.getShortDescription());
+		newsDTO.setContent(newEntity.getContent());
+		newsDTO.setCategoryCode(newEntity.getCategory().getCode());
+		return newsDTO; 
+	}
+}
